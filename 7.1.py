@@ -6,3 +6,9 @@
 fname = input("Enter your Flie Name:")
 fh=open.fname
 print(fh.read().strip().rstrip())
+
+# different solution 
+fh = input('Enter your file name:')
+for lx in fh:
+    ly = lx .rstrip()
+    print(ly.upper())
